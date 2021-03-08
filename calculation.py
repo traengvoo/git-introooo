@@ -17,6 +17,8 @@ if __name__ == '__main__':
 
     mult = int(input("Add multiplier:"))
     add = int(input("Add addition:"))
+    sub = int(input("Add subtraction:"))
+
    
     if f == 0:
         a = int(input("Input value a: "))
@@ -31,7 +33,8 @@ if __name__ == '__main__':
         result = cal_rectangle_area(a, b)
     else:
         result = "Wrong input"
-        
-    print(result*mult+add)
+  
+    print(result*mult+add-sub)
+
 
 
